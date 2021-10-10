@@ -1,4 +1,5 @@
-# Stmart Ranking: A Proof of Concept about microservice with nestjs
+# Stmart Ranking 
+### A Proof of Concept about microservice with nestjs and typescript
 
 ## Installation
 
