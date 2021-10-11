@@ -36,7 +36,7 @@ export class PlayersService {
   }
 
   async deletePlayer(email:string): Promise<any> {
-    return await this.playerModule.remove({ email }).exec();
+    return await this.playerModule.deleteOne({ email }).exec();
   }
 
   private async create(createPlayer: CreatePlayerDto): Promise<Player> {
